@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/img/logo.png" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <script defer src="./assets/js/popper.min.js"></script>
     <script defer src="./assets/js/bootstrap.min.js"></script>
     <title>M'GREEN | Des professionnels expérimentés | 01 87 64 47 79</title>
@@ -39,8 +40,8 @@
     <nav class="navbar navbar-expand-lg fixedNav">
         <div class="container">
             <div class="Navbar_image">
-                <a href="./index.html"><img src="./assets/img/logo.png" class="Navbar_image-img"
-                        alt="" /></a>
+                <a href="/"><img src="./assets/img/logo.png" class="Navbar_image-img"
+                        alt="Logo M'Green" /></a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,13 +83,22 @@
         </div>
     </nav>
 </section>
+
+<script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particlesjs', '/assets/js/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+</script>
+
     
 
     <div class="">
-        <section class="banner">
+        <div id="particlesjs"></div>
+<section class="banner">
     <div class="container-fluid">
         <div class="banner_content">
-            <h1 class="banner_content-title px-5">Bénéficiez d’une chaudière Frisquet à Créteil</h1>
+            <h1 class="banner_content-title px-5">Découvrez nos chaudières Frisquet à Vincennes</h1>
         </div>
     </div>
 </section>
@@ -97,16 +107,28 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-md-4">
                 <div class="zone_image">
-                    <img src="./assets/img/creteil.png" class="zone_image-img2" alt="Chaudière Frisquet Créteil" />
+                    <img src="./assets/img/vincennes.png" class="zone_image-img3" alt="Chaudière Frisquet Vincennes" />
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="menu_content">
-                    <h2 class="zone_links-title text-left">Expert de l'entretien de chaudière toutes marques Créteil et
-                        ses alentours</h2>
-                    <p class="menu_content-p text-justify">Afin de vous assurer de passer un hiver tranquille, en
-                        bénéficiant d'un système de chauffage fiable pour toute la saison, faire appel à un expert
-                        qualifié pour votre chaudière est un impératif auquel nous pouvons répondre.</p>
+                    <p class="menu_content-p text-justify">Vous êtes situés dans le département du Val-de-Marne et plus
+                        précisément dans la ville de Vincennes, vous avez besoin d’un service professionnel pour
+                        l’installation et la rénovation de vos appareils sanitaires et de vos appareils thermiques,
+                        contactez sans attendre notre chauffagiste. Pour l’installation et l’entretien de votre
+                        chaudière Frisquet à Vincennes, une équipe de techniciens compétents vous accompagne. En somme,
+                        c’est un ensemble de services savamment développés qui vous permettent de mener à bien vos
+                        travaux de tuyauterie et de canalisations. Prenez donc la peine de découvrir des
+                        <strong>prestations uniques qui s’adaptent à vos besoins</strong>. Vous êtes à Vincennes,
+                        découvrez et appréciez notre offre d’installation de chaudières.
+                        <br><br>
+                        Votre installateur de <strong>chaudière Frisqet à Vincennes</strong> est LE spécialiste de la
+                        chaudière. Notre entreprise propose l'installation de votre chaudière dans tout le Val-de-Marne
+                        à des prix défiants toute concurrence. Si vous êtes situés dans le 94 et plus précisément dans
+                        la ville de Vincennes et que vous avez besoin d'un artisan proposant un service professionnel
+                        pour l'installation et la rénovation de vos appareils sanitaires et de vos appareils thermiques,
+                        contactez sans attendre l'un de nos chauffagistes. Votre installateur de chaudière Frisquet à
+                        Vincennes est toujours disponible pour vous dépanner en cas de besoin.</p>
                 </div>
             </div>
         </div>
@@ -117,12 +139,17 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-md-12">
                 <div class="menu_content">
-                    <h3 class="zone_links-title text-left">Spécialité : chaudière Frisquet à Créteil et en région
-                        parisienne</h3>
-                    <p class="menu_content-p text-justify"><strong>Notre équipe a été formée et spécialisée dans
-                            l'entretien, la pose, ou encore la réparation des chaudières de la marque Frisquet à
-                            Créteil.</strong> Nos techniciens sont, bien évidemment, très compétents auprès des autres
-                        marques, mais avec notre partenaire Frisquet, vous aurez une garantie supplémentaire !<p>
+                    <h2 class="zone_links-title text-left">La bonne adresse pour installer votre chaudière</h2>
+                    <p class="menu_content-p text-justify">Trouver la bonne offre de service n'est pas toujours chose
+                        facile et la plupart du temps, il faut se soumettre à des formules qui ne conviennent pas
+                        toujours à vos projets. Le problème se pose aussi bien dans la région de Vincennes où l'accès
+                        aux services d'un chauffagiste n'est pas une mince affaire en fonction des divers besoins.
+                        <strong>C'est pour donner entière satisfaction aux clients de ce marché que l'entreprise
+                            s'occupe de votre chaudière Frisquet sur Vincennes.</strong> Nous sommes des professionnels
+                        spécialistes dans la pose et dans l'entretien de chaudières. Grâce à notre expérience, nous
+                        pouvons vous garantir un rendu de haute qualité. Nous agissons en tenant compte de vos besoins,
+                        mais aussi en respectant les règles de sécurité qu'imposent les différents appareils et
+                        installations sanitaires et de chauffage.<p>
                 </div>
             </div>
         </div>
@@ -133,30 +160,15 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-md-12">
                 <div class="menu_content">
-                    <h3 class="zone_links-title text-left">Entreprise de dépannage et d'entretien
-                    </h3>
-                    <p class="menu_content-p text-justify">Pour toute intervention sur une <strong>chaudière Frisquet à
-                            Créteil</strong>, M’Green se déplace le plus rapidement possible, et vous propose un contrat
-                        d'entretien et de maintenance afin de bénéficier d'un suivi attentif de votre installation tout
-                        au long de l'année.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="tile pb-5">
-    <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-md-12">
-                <div class="menu_content">
-                    <h2 class="zone_links-title text-left">Installation et dépannage de chaudière Frisquet à Créteil
+                    <h2 class="zone_links-title text-left">Le service
                     </h2>
-                    <p class="menu_content-p text-justify">L'entreprise M’Green emploie une équipe dotée d'une
-                        qualification RGE et d'une expérience permettant de résoudre toutes les pannes et avaries sur
-                        l'ensemble de vos installations de chauffages. Spécialisée dans l'entretien de la chaudière
-                        Frisquet à Créteil et en région parisienne, elle est à votre écoute et à votre service sur
-                        rendez-vous.
+                    <p class="menu_content-p text-justify">Les activités d’un plombier chauffagiste sont
+                        particulièrement sensibles dans une certaine mesure. En effet, elles prennent en compte l’un des
+                        aspects les plus délicats dans la phase des travaux de construction ou d’entretien d’un
+                        domicile. Au-delà de la fonction de plombier, les compétences de ce technicien concernent
+                        également l’installation et l’entretien des dispositifs thermiques, notamment le système de
+                        chauffage. Il ne fait donc aucun doute que des travaux de cette nature doivent être effectués
+                        par un professionnel avéré bénéficiant, de surcroît, d’une bonne expérience en la matière.
                     </p>
                 </div>
             </div>
@@ -168,17 +180,132 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-md-12">
                 <div class="menu_content">
-                    <h3 class="zone_links-title text-left">Expérience et écoute de vos besoins
+                    <h2 class="zone_links-title text-left">Notre entreprise
+                    </h2>
+                    <p class="menu_content-p text-justify">M’Green est une entreprise située dans la région parisienne
+                        et intervient notamment dans la ville de Vincennes. <strong>Spécialisée dans l’installation et
+                            dans l’entretien de chaudière</strong> Frisquet, notre chauffagiste expert dispose d’une
+                        équipe de techniciens hautement compétents et qualifiés. Les prestations garanties par
+                        l’entreprise sont accessibles aussi bien aux particuliers qu’aux entreprises. L’installation et
+                        la rénovation de votre système de tuyauterie et de votre salle de bain sont prises en charge
+                        avec un accent mis sur la chaudière Frisquet.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tile pb-5">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-12">
+                <div class="menu_content">
+                    <h2 class="zone_links-title text-left">Nos atouts
+                    </h2>
+                    <p class="menu_content-p text-justify"><strong>Notre chauffagiste vous assure un certain nombre
+                            d’avantages qui en font l’un des leaders du marché.</strong> L’entreprise vous assure
+                        l’assistance de techniciens spécialisés dans l’installation de chaudières. Vous avez, de plus,
+                        la garantie d’un matériel d’une qualité irréprochable. L’autre atout de notre chauffagiste est
+                        la personnalisation du service qui s’adapte à votre budget. Si vous êtes à Vincennes, n’hésitez
+                        pas à nous contacter, nous avons certainement l’offre qui vous convient.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tile pb-5">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-12">
+                <div class="menu_content">
+                    <h3 class="zone_links-title text-left">Notre savoir-faire à votre disposition
                     </h3>
-                    <p class="menu_content-p text-justify">Afin de pouvoir répondre à toutes les questions et demandes
-                        de nos clients, nous nous sommes entourés d'une équipe de techniciens qualifiés et à l'écoute de
-                        vos interrogations. <strong>Vous obtiendrez ainsi des conseils pour bien préserver votre
-                            chaudière, pour faire des économies, ou encore pour contracter une solution d’entretien et
-                            de maintenance</strong> sur le long terme, qui vous garantit un suivi à l'année de façon
-                        régulière, ainsi qu’une intervention prioritaire en cas de panne quelconque. Nous intervenons
-                        sur toutes les installations de chaudière Frisquet à Créteil et dans les départements aux
-                        alentours. Après avoir réalisé un devis de votre demande de dépannage ou d'installation, nous
-                        procédons rapidement à l’intervention.
+                    <p class="menu_content-p text-justify">Depuis nos débuts, nous avons voulu proposer un service
+                        irréprochable à tous nos clients. Pour y parvenir, nous sommes attentifs aux besoins de chacun
+                        de nos clients. En effet, nous étudions toutes les demandes de manière personnalisée. Ceci, car
+                        les besoins diffèrent d'un client à l'autre. Il en va de même pour les matériaux à utiliser. Ce
+                        qui convient à un client ne convient pas forcément à un autre. Chez M'Green, nous disposons
+                        d'équipes de techniciens qui recensent les matériaux écologiques permettant le plus de
+                        rentabilité pour le consommateur. C'est le cas du ballon thermodynamique, qui apporte un réel
+                        confort au consommateur tout en lui permettant de faire des économies. <strong>Votre
+                            chauffagiste est expérimenté et peut répondre à différents besoins notamment en ce qui
+                            concerne votre chaudière Frisquet à Vincennes.</strong> Par ailleurs, ce dernier est apte à
+                        vous proposer des solutions adaptées à vos besoins ainsi qu'au budget dont vous disposez.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tile pb-5">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-12">
+                <div class="menu_content">
+                    <h2 class="zone_links-title text-left">Une vaste palette de services professionnels
+                    </h2>
+                    <p class="menu_content-p text-justify">Nos techniciens sont des spécialistes qui proposent des
+                        services variés et de qualité. Ces derniers sont aptes à répondre à tout genre de projet dans le
+                        domaine de la plomberie et du chauffage. Qu'il s'agisse de poser une chaudière dans une
+                        construction récente ou le remplacement d'une chaudière hors service, qu'il s'agisse de poser un
+                        système complet ou de vérifier/remplacer une tuyauterie abîmée, nous pouvons répondre
+                        positivement à chacun de vos projets. Pour cela, il suffit de contacter nos techniciens. Plus
+                        concrètement, nous vous proposons tous les travaux de chauffagiste, l'installation de votre
+                        <strong>chaudière Frisquet à Vincennes</strong>, des contrats de maintenance et l’entretien de
+                        votre chaudière Frisquet ainsi que le dépannage de cette dernière. En ce qui concerne les
+                        ballons thermodynamiques, <strong>nous disposons aussi de toutes les connaissances techniques
+                            pour la pose et le dépannage de votre ballon</strong>. Il faut savoir que chez M'Green, nous
+                        utilisons des matériaux robustes. Les canalisations, la tuyauterie ou encore les conduits
+                        électriques, les éléments permettant la fixation de votre ballon et tous ses matériaux sont
+                        faits de manière tout à fait professionnelle.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tile pb-5">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-12">
+                <div class="menu_content">
+                    <h3 class="zone_links-title text-left">Recevez un devis rapidement et gratuitement
+                    </h3>
+                    <p class="menu_content-p text-justify">Lorsque vous devez faire appel à un technicien, il est
+                        important de savoir combien ces travaux vont vous coûter. En effet, les travaux en relation avec
+                        la chaudière peuvent dépasser votre budget. En demandant l'établissement d'un devis avant de
+                        conclure, vous évitez les mauvaises surprises sur votre facture finale. Sachez que nos devis
+                        sont réalisés et délivrés gratuitement. De même, vous êtes libre de l'accepter ou non. Le fait
+                        de demander un devis ne vous engage à rien. Par ailleurs, sachez que nos équipes pratiquent des
+                        tarifs raisonnables. Le montant du devis initial est le même que celui de la facture que vous
+                        aurez à régler. Nous agissons de manière transparente avec tous nos clients. N'hésitez donc plus
+                        à choisir notre entreprise pour mener à bien tous vos projets d'installation de chaudière de
+                        tout type. Nous vous garantissons un rendu sécurisé et aux normes avec une très bonne qualité.
+                        Pour bénéficier d'un devis gratuit, vous pouvez nous contacter par téléphone, mais aussi remplir
+                        notre formulaire disponible sur notre site web. Dans ce dernier cas, un agent reviendra vers
+                        vous, très rapidement. <strong>Nos artisans aguerris restent à votre écoute pour répondre à
+                            toutes vos interrogations, notamment sur votre chaudière Frisquet à Vincennes.</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tile pb-5">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-12">
+                <div class="menu_content">
+                    <h4 class="zone_links-title text-left">Nos zones d'interventions
+                    </h4>
+                    <p class="menu_content-p text-justify">Si vous habitez dans la ville de Vincennes ou ses alentours,
+                        vous allez pouvoir bénéficier de nos services. Par ailleurs, sachez que <strong>notre entreprise
+                            exerce dans tout le département du Val-de-Marne</strong>. Ainsi, si vos besoins sont en
+                        dehors de Vincennes, mais toujours dans le 94, vous pouvez compter sur nos services. Nos équipes
+                        se déplacent dans toutes les villes du département. Par ailleurs, nous pouvons intervenir dans
+                        vos résidences ainsi que dans vos bureaux. Nos artisans travaillent sur votre chaudière sur
+                        Vincennes en respectant vos exigences.
                     </p>
                 </div>
             </div>
@@ -188,22 +315,23 @@
     </div>
 
     <footer class="footer">
-    <div class="container">
-        <div class="footer_content">
-            <div></div>
-            <div class="d-flex align-items-center zone_links-flex">
-                <a href="./zones-intervention.html" class="footer_content-p">Zones d’intervention</a>
-                <p class="footer_content-p"> &nbsp; | &nbsp</p>
-                <a href="" class="footer_content-p">Mentions légales</a>
-                <p class="footer_content-p"> &nbsp; | &nbsp</p>
-                <a href="" class="footer_content-p">Politique de confidentialité</a>
-            </div>
-            <div class="footer_bottom">
-                <p class="footer_bottom-p"><a href="https://www.bhinternet.fr/" target="_blank" class="footer_bottom-p">BHInternet - Création site internet | 2022</a></p>
+        <div class="container">
+            <div class="footer_content">
+                <div></div>
+                <div class="d-flex align-items-center zone_links-flex">
+                    <a href="./zones-intervention.html" class="footer_content-p">Zones d’intervention</a>
+                    <p class="footer_content-p"> &nbsp; | &nbsp</p>
+                    <a href="" class="footer_content-p">Mentions légales</a>
+                    <p class="footer_content-p"> &nbsp; | &nbsp</p>
+                    <a href="" class="footer_content-p">Politique de confidentialité</a>
+                </div>
+                <div class="footer_bottom">
+                    <p class="footer_bottom-p"><a href="https://www.bhinternet.fr/" target="_blank" class="footer_bottom-p">BHInternet - Création site internet | 2022</a></p>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
+
 
 <script src="./assets/js/index.js"></script>
 <script src="./assets/js/formSubmit.js"></script>

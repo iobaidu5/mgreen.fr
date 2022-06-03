@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/img/logo.png" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <script defer src="./assets/js/popper.min.js"></script>
     <script defer src="./assets/js/bootstrap.min.js"></script>
     <title>M'GREEN | Des professionnels expérimentés | 01 87 64 47 79</title>
@@ -39,8 +40,8 @@
     <nav class="navbar navbar-expand-lg fixedNav">
         <div class="container">
             <div class="Navbar_image">
-                <a href="./index.html"><img src="./assets/img/logo.png" class="Navbar_image-img"
-                        alt="" /></a>
+                <a href="/"><img src="./assets/img/logo.png" class="Navbar_image-img"
+                        alt="Logo M'Green" /></a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,8 +84,18 @@
     </nav>
 </section>
 
+<script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particlesjs', '/assets/js/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+</script>
+
+    
+
     <div class="">
-        <section class="banner">
+        <div id="particlesjs"></div>
+<section class="banner">
     <div class="container">
         <div class="banner_content">
             <h1 class="banner_content-title">Ballon thermodynamique</h1>
@@ -115,8 +126,8 @@
             <div class="tile_left">
                 <div class="d-flex tile_left-flex justify-content-between align-items-center">
                     <div class="tile_left-image">
-                        <img src="./assets/img/2.png" class="tile_left-image--img" alt="" />
-                        <img src="./assets/img/2-name.png" class="tile_left-image--brand" alt="" />
+                        <img src="./assets/img/2.png" class="tile_left-image--img" alt="Chaudière Vivadens MCR" />
+                        <img src="./assets/img/2-name.png" class="tile_left-image--brand" alt="Logo De Dietrich" />
                     </div>
                     <div class="tile_left-content">
                         <p class="tile_left-content--p">VIVADENS MCR</p>
@@ -133,20 +144,20 @@
             <div class="tile_right">
                 <div class="tile_right-content">
                     <p class="tile_right-content--price">1 499€*</p>
-                    <a href="/devis" class="tile_right-content--btn">Demandez un devis</a>
+                    <a href="./devis.html" class="tile_right-content--btn">Demandez un devis</a>
                     <div class="tile_right-gallery">
-                        <div class="row">
+                        <div class="row justify-content-center">
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="Logo RGE" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/2.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/2.png" class="tile_right-gallery--img" alt="Logo maprimerenov'" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="Logo CEE" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="Logo ministère de la transition écologique et solidaire" />
                             </div>
                         </div>
                     </div>
@@ -162,8 +173,8 @@
             <div class="tile_left">
                 <div class="d-flex tile_left-flex justify-content-between align-items-center">
                     <div class="tile_left-image">
-                        <img src="./assets/img/1.png" class="tile_left-image--img" alt="" />
-                        <img src="./assets/img/1-name.png" class="tile_left-image--brand" alt="" />
+                        <img src="./assets/img/1.png" class="tile_left-image--img" alt="Chaudière Chaffoteaux" />
+                        <img src="./assets/img/1-name.png" class="tile_left-image--brand" alt="Logo Chaffoteaux" />
                     </div>
                     <div class="tile_left-content">
                         <p class="tile_left-content--p">Niagara C Green Ultra</p>
@@ -182,18 +193,18 @@
                     <p class="tile_right-content--price">1 399€*</p>
                     <a href="./devis.html" class="tile_right-content--btn">Demandez un devis</a>
                     <div class="tile_right-gallery">
-                        <div class="row">
+                        <div class="row justify-content-center">
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="Logo RGE" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/2.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/2.png" class="tile_right-gallery--img" alt="Logo maprimerenov'" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="Logo CEE" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="Logo ministère de la transition écologique et solidaire" />
                             </div>
                         </div>
                     </div>
@@ -230,22 +241,23 @@
     </div>
 
     <footer class="footer">
-    <div class="container">
-        <div class="footer_content">
-            <div></div>
-            <div class="d-flex align-items-center zone_links-flex">
-                <a href="./zones-intervention.html" class="footer_content-p">Zones d’intervention</a>
-                <p class="footer_content-p"> &nbsp; | &nbsp</p>
-                <a href="" class="footer_content-p">Mentions légales</a>
-                <p class="footer_content-p"> &nbsp; | &nbsp</p>
-                <a href="" class="footer_content-p">Politique de confidentialité</a>
-            </div>
-            <div class="footer_bottom">
-                <p class="footer_bottom-p"><a href="https://www.bhinternet.fr/" target="_blank" class="footer_bottom-p">BHInternet - Création site internet | 2022</a></p>
+        <div class="container">
+            <div class="footer_content">
+                <div></div>
+                <div class="d-flex align-items-center zone_links-flex">
+                    <a href="./zones-intervention.html" class="footer_content-p">Zones d’intervention</a>
+                    <p class="footer_content-p"> &nbsp; | &nbsp</p>
+                    <a href="" class="footer_content-p">Mentions légales</a>
+                    <p class="footer_content-p"> &nbsp; | &nbsp</p>
+                    <a href="" class="footer_content-p">Politique de confidentialité</a>
+                </div>
+                <div class="footer_bottom">
+                    <p class="footer_bottom-p"><a href="https://www.bhinternet.fr/" target="_blank" class="footer_bottom-p">BHInternet - Création site internet | 2022</a></p>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
+
 
 <script src="./assets/js/index.js"></script>
 <script src="./assets/js/formSubmit.js"></script>

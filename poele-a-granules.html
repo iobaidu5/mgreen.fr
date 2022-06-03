@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/img/logo.png" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <script defer src="./assets/js/popper.min.js"></script>
     <script defer src="./assets/js/bootstrap.min.js"></script>
     <title>M'GREEN | Des professionnels expérimentés | 01 87 64 47 79</title>
@@ -39,8 +40,8 @@
     <nav class="navbar navbar-expand-lg fixedNav">
         <div class="container">
             <div class="Navbar_image">
-                <a href="./index.html"><img src="./assets/img/logo.png" class="Navbar_image-img"
-                        alt="" /></a>
+                <a href="/"><img src="./assets/img/logo.png" class="Navbar_image-img"
+                        alt="Logo M'Green" /></a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,10 +84,19 @@
     </nav>
 </section>
 
+
+<script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particlesjs', '/assets/js/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+</script>
+
     
 
     <div class="">
-        <section class="banner">
+        <div id="particlesjs"></div>
+<section class="banner">
     <div class="container">
         <div class="banner_content">
             <h1 class="banner_content-title">Poêle à granulés</h1>
@@ -110,8 +120,8 @@
             <div class="tile_left">
                 <div class="d-flex tile_left-flex justify-content-between align-items-center">
                     <div class="tile_left-image">
-                        <img src="./assets/img/6.png" class="tile_left-image--img" alt="" />
-                        <img src="./assets/img/6-name.png" class="tile_left-image--brand" alt="" />
+                        <img src="./assets/img/6.png" class="tile_left-image--img" alt="Poêle à granulés" />
+                        <img src="./assets/img/6-name.png" class="tile_left-image--brand" alt="Logo Caminetti Montegrappa" />
                     </div>
                     <div class="tile_left-content">
                         <p class="tile_left-content--p">Poêle à granulés ESAGONO </p>
@@ -131,18 +141,18 @@
                     <p class="tile_right-content--price">Offert*</p>
                     <a href="./contact.html" class="tile_right-content--btn">Contactez-nous</a>
                     <div class="tile_right-gallery">
-                        <div class="row">
+                        <div class="row justify-content-center">
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="Logo RGE" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/2.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/2.png" class="tile_right-gallery--img" alt="Logo maprimerenov'" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="Logo CEE" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="Logo ministère de la transition écologique et solidaire" />
                             </div>
                         </div>
                     </div>
@@ -175,7 +185,7 @@
                     <p class="cards_content-p mb-5">Retrouvez les données techniques, les colories, une description
                         détaillée, les pièces principales qui composent le poêle ainsi que des consignes d’installation
                         dans le fichier à téléharger ci-dessous.</p>
-                    <a href="" class="tile_right-content--btn mx-4">Télécharger</a>
+                    <a href="./assets/files/presentation-esagono.pdf" target="_blank" class="tile_right-content--btn mx-4">Télécharger</a>
                 </div>
             </div>
         </div>
@@ -190,7 +200,7 @@
             <div class="col-md-6">
                 <div class="services_tabs mt-2">
                     <div class="d-flex">
-                        <img src="./assets/img/one.png" class="services_tabs-img" alt="" />
+                        <img src="./assets/img/one.png" class="services_tabs-img" alt=" Icône 1" />
                         <h3 class="services_tabs-title">Ventilateur</h3>
                     </div>
                     <p class="services_tabs-p">Il permet d’apporter une parfaite quantité d’oxygène pour améliorer la
@@ -198,7 +208,7 @@
                 </div>
                 <div class="services_tabs">
                     <div class="d-flex">
-                        <img src="./assets/img/two.png" class="services_tabs-img" alt="" />
+                        <img src="./assets/img/two.png" class="services_tabs-img" alt=" Icône 2" />
                         <h3 class="services_tabs-title">Évacuation des fumées</h3>
                     </div>
                     <p class="services_tabs-p">Les gaz de combustion sont évacués part un conduit, qui doit être tubé.
@@ -208,7 +218,7 @@
                 </div>
                 <div class="services_tabs">
                     <div class="d-flex">
-                        <img src="./assets/img/three.png" class="services_tabs-img" alt="" />
+                        <img src="./assets/img/three.png" class="services_tabs-img" alt=" Icône 3" />
                         <h3 class="services_tabs-title">Capacité du réservoir</h3>
                     </div>
                     <p class="services_tabs-p">Les réservoirs qui stockent une grande quantité de granulés offrent bien
@@ -216,7 +226,7 @@
                 </div>
                 <div class="services_tabs">
                     <div class="d-flex">
-                        <img src="./assets/img/four.png" class="services_tabs-img" alt="" />
+                        <img src="./assets/img/four.png" class="services_tabs-img" alt=" Icône 4" />
                         <h3 class="services_tabs-title">Vis sans fin</h3>
                     </div>
                     <p class="services_tabs-p">La vis sans fin tourne lentement pour amener les granulés du réservoir à
@@ -225,7 +235,7 @@
                 </div>
                 <div class="services_tabs">
                     <div class="d-flex">
-                        <img src="./assets/img/five.png" class="services_tabs-img" alt="" />
+                        <img src="./assets/img/five.png" class="services_tabs-img" alt=" Icône 5" />
                         <h3 class="services_tabs-title">Entrée d’air</h3>
                     </div>
                     <p class="services_tabs-p">Grâce à l’entrée d’air, le poêle puise l’air frais dans la pièce en
@@ -254,6 +264,7 @@
         </div>
     </div>
 </footer>
+
 
 <script src="./assets/js/index.js"></script>
 <script src="./assets/js/formSubmit.js"></script>

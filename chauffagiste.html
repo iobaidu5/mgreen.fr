@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/img/logo.png" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <script defer src="./assets/js/popper.min.js"></script>
     <script defer src="./assets/js/bootstrap.min.js"></script>
     <title>M'GREEN | Des professionnels expérimentés | 01 87 64 47 79</title>
@@ -39,8 +40,8 @@
     <nav class="navbar navbar-expand-lg fixedNav">
         <div class="container">
             <div class="Navbar_image">
-                <a href="./index.html"><img src="./assets/img/logo.png" class="Navbar_image-img"
-                        alt="" /></a>
+                <a href="/"><img src="./assets/img/logo.png" class="Navbar_image-img"
+                        alt="Logo M'Green" /></a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,10 +84,18 @@
     </nav>
 </section>
 
+<script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particlesjs', '/assets/js/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+</script>
+
     
 
     <div class="">
-        <section class="banner">
+        <div id="particlesjs"></div>
+<section class="banner">
     <div class="container">
         <div class="banner_content">
             <h1 class="banner_content-title">Chauffagiste M'GREEN</h1>
@@ -119,8 +128,8 @@
             <div class="tile_left">
                 <div class="d-flex tile_left-flex justify-content-between align-items-center">
                     <div class="tile_left-image">
-                        <img src="./assets/img/1.png" class="tile_left-image--img" alt="" />
-                        <img src="./assets/img/1-name.png" class="tile_left-image--brand" alt="" />
+                        <img src="./assets/img/1.png" class="tile_left-image--img" alt="Chaudière Chaffoteaux" />
+                        <img src="./assets/img/1-name.png" class="tile_left-image--brand" alt="Logo Chaffoteaux" />
                     </div>
                     <div class="tile_left-content">
                         <p class="tile_left-content--p">Urbia Green Ultra</p>
@@ -166,8 +175,8 @@
             <div class="tile_left">
                 <div class="d-flex tile_left-flex justify-content-between align-items-center">
                     <div class="tile_left-image">
-                        <img src="./assets/img/2.png" class="tile_left-image--img" alt="" />
-                        <img src="./assets/img/2-name.png" class="tile_left-image--brand" alt="" />
+                        <img src="./assets/img/2.png" class="tile_left-image--img" alt="Chaudière Vivadens MCR" />
+                        <img src="./assets/img/2-name.png" class="tile_left-image--brand" alt="Logo De Dietrich" />
                     </div>
                     <div class="tile_left-content">
                         <p class="tile_left-content--p">VIVADENS MCR</p>
@@ -250,6 +259,8 @@
         </div>
     </div>
 </footer>
+
+
 <script src="./assets/js/index.js"></script>
 <script src="./assets/js/formSubmit.js"></script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>

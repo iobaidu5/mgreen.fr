@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/img/logo.png" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <script defer src="./assets/js/popper.min.js"></script>
     <script defer src="./assets/js/bootstrap.min.js"></script>
     <title>M'GREEN | Des professionnels expérimentés | 01 87 64 47 79</title>
@@ -39,8 +40,8 @@
     <nav class="navbar navbar-expand-lg fixedNav">
         <div class="container">
             <div class="Navbar_image">
-                <a href="./index.html"><img src="./assets/img/logo.png" class="Navbar_image-img"
-                        alt="" /></a>
+                <a href="/"><img src="./assets/img/logo.png" class="Navbar_image-img"
+                        alt="Logo M'Green" /></a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,15 +84,22 @@
     </nav>
 </section>
 
+<script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particlesjs', '/assets/js/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+</script>
 
     
 
     <div class="">
-        <section class="banner">
+        <div id="particlesjs"></div>
+<section class="banner">
     <div class="container-fluid">
         <div class="banner_content">
-            <h1 class="banner_content-title px-5">Signez un contrat d’entretien de chaudière à Créteil pour plus
-                sécurité</h1>
+            <h1 class="banner_content-title px-5">Contactez nous pour signer votre contrat d’entretien de chaudière à
+                Vincennes</h1>
         </div>
     </div>
 </section>
@@ -100,26 +108,26 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-md-4">
                 <div class="zone_image">
-                    <img src="./assets/img/creteil.png" class="zone_image-img2"
-                        alt="Contrat d'entretien chaudière Créteil" />
+                    <img src="./assets/img/vincennes.png" class="zone_image-img2"
+                        alt="Contrat d’entretien chaudière Vincennes" />
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="menu_content">
-                    <p class="menu_content-p text-justify">Que votre chaudière soit neuve ou ancienne, qu'elle soit
-                        d'entrée de gamme ou à condensation, un <strong>contrat d'entretien de chaudière à
-                            Créteil</strong> est indispensable pour vérifier son fonctionnement et s'assurer de
-                        l’absence de monoxyde de carbone ou d'une pièce qui serait sur le point de céder. Chez M'Green,
-                        vous pouvez bénéficier de l'intervention de chauffagistes expérimentés et capables de vous
-                        offrir des prestations de qualité, quel que soit le modèle de votre chaudière. Avoir un contrat
-                        d'entretien vous permettra d'éviter les pannes courantes, mais aussi de bénéficier d'une chauffe
-                        optimale et ainsi réaliser des économies d'énergie substantielles. <strong>Cela vous confère
-                            également une sécurité accrue en effectuant une inspection annuelle</strong> et en mesurant
-                        les différentes valeurs d'émission de monoxyde de carbone ou autres substances toxiques. Vous
-                        pouvez dès à présent obtenir un contrat d'entretien de chaudière à Créteil en nous appelant au
-                        01 60 47 00 95 ou au 06 48 06 88 85, ou en nous écrivant à contact@chauffagiste94.fr pour
-                        obtenir une première visite et un devis gratuit en vue de contracter une solution d'entretien de
-                        chaudière à Créteil.</p>
+                    <p class="menu_content-p text-justify">Si vous souhaitez obtenir un <strong>contrat d'entretien de
+                            chaudière à Vincennes</strong> sur mesure et en adéquation avec vos besoins, vous pouvez
+                        faire appel à M'Green. Nous sommes des chauffagistes experts dans le département du
+                        Val-de-Marne. Parce qu'un contrat d'entretien est obligatoire lorsqu'il s'agit d'une chaudière à
+                        gaz et qu'un entretien bien effectué vous garantira sécurité et économie d'énergie, il est
+                        important pour ce genre de mission d'être bien accompagné. M'Green est une société partenaire du
+                        constructeur Frisquet, mais peut également intervenir sur des chaudières de différentes marques,
+                        quel que soit le modèle en question. Avec M'Green, <strong>vous pourrez vous appuyer sur un
+                            technicien expert, capable de déceler les moindres anomalies</strong> et d'effectuer le
+                        réglage le plus fin afin de préserver votre chaudière et de la maintenir en état pour de longues
+                        années. Si vous souhaitez obtenir les prestations d'un chauffagiste professionnel pour un
+                        contrat d'entretien de chaudière sur Vincennes, n'hésitez pas à nous appeler au 01 60 47 00 95
+                        ou au 06 48 06 88 85, ou à nous écrire directement à l’adresse contact@chauffagiste94.fr pour
+                        une première visite d'inspection et ainsi obtenir un devis détaillé et gratuit.</p>
                 </div>
             </div>
         </div>
@@ -130,12 +138,22 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-md-12">
                 <div class="menu_content">
-                    <h2 class="zone_links-title text-left">Installation, dépannage et entretien de chaudière à Créteil
-                        et ses alentours</h2>
-                    <p class="menu_content-p text-justify">Prendre soin de son installation de chauffage tout au long de
-                        l'année est essentiel pour éviter les pannes et pour être prêt à passer l'hiver au chaud.
-                        <strong>Pour cela, nous vous apportons tous les services de pose et, bien sûr, un contrat
-                            d'entretien de chaudière à Créteil</strong> et en région parisienne et aussi possible.<p>
+                    <h2 class="zone_links-title text-left">Un contrat d'entretien sur mesure</h2>
+                    <p class="menu_content-p text-justify">Grâce à <strong>son expertise et son savoir-faire</strong>,
+                        M'Green sera à même de vous proposer un entretien sur-mesure pour votre chaudière, qu'elle soit
+                        de marque Frisquet ou non. Au sein de ce contrat d'entretien de votre chaudière à Vincennes,
+                        vous obtiendrez une visite d'inspection annuelle à planifier avec le technicien pour vérifier le
+                        fonctionnement de votre appareil et effectuer quelques opérations de maintenance. Les
+                        différentes parties de la chaudière seront nettoyées, la pression dans les radiateurs ajustée,
+                        et quelques opérations de réglage et d'optimisation effectuées afin que vous puissiez passer une
+                        période hivernale en toute tranquillité. Grâce à ce contrat d'entretien de votre chaudière à
+                        Vincennes, vous bénéficierez d'une priorité haute en cas de panne avec une intervention d'un
+                        technicien dans la journée même pendant le week-end ce qui est très important en cas de
+                        température très basse. Seules les pièces endommagées seront remplacées, les frais de
+                        déplacement et la main-d'œuvre vous seront offerts. <strong>Vous trouverez chez M'Green des
+                            tarifs pour un contrat d'entretien de chaudière sur Vincennes parmi les moins chers du
+                            marché</strong> tout en bénéficiant d'une qualité irréprochable et de l'intervention d'un
+                        technicien expérimenté capable de réagir à n'importe quelle situation.<p>
                 </div>
             </div>
         </div>
@@ -146,21 +164,15 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-md-12">
                 <div class="menu_content">
-                    <h2 class="zone_links-title text-left">M'Green à votre service pour tout ce qui est dépannage et
-                        diagnostic
+                    <h2 class="zone_links-title text-left">Mise en place d’un système de chauffage
                     </h2>
-                    <p class="menu_content-p text-justify">Nos équipiers disposent d'une expérience importante dans tout
-                        ce qui est dépannage et diagnostic des chaudières, notamment celles de la gamme Frisquet. Un
-                        technicien se rend sur place afin de mieux comprendre votre situation et proposer des réglages
-                        ou des modifications afin que vous puissiez bénéficier du maximum de confort dont vous avez
-                        besoin. Dans le cadre de ses activités, vous pouvez compter sur M'Green pour des dépannages en
-                        urgence sur votre chaudière, quels que soient sa marque et son modèle. Un technicien peut
-                        intervenir rapidement voire dans la journée pour vous remettre en état la chaudière notamment en
-                        période hivernale. Dans le cadre d'un contrat d'entretien de chaudière à Créteil, vous
-                        bénéficierez de la gratuité des frais de déplacement et de la main-d'œuvre, ainsi qu'une prise
-                        en compte prioritaire par notre entreprise. <strong>Avec nos chauffagistes, vous êtes certains
-                            d'obtenir une réparation rapide grâce aux nombreuses pièces que nous disposons en
-                            stock.</strong>
+                    <p class="menu_content-p text-justify">Notre entreprise propose la mise en place d’un système de
+                        chauffage comme des chaudières ou des ballons thermodynamiques dans le 94 (Créteil, Vincennes ou
+                        encore Vitry-sur-Seine) mais aussi en Seine-Saint-Denis, dans la Seine-et-Marne, dans le
+                        Val-de-Marne ou en Essonne. Il est à souligner qu’en France, <strong>notre société est
+                            l’installateur numéro 1 de chaudière de la marque Frisquet</strong>. Elle peut ainsi
+                        proposer un contrat d’entretien de chaudière à Vincennes avec les meilleures garanties
+                        possibles.
                     </p>
                 </div>
             </div>
@@ -172,41 +184,15 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-md-12">
                 <div class="menu_content">
-                    <h2 class="zone_links-title text-left">Des contrats d'entretien sur mesure pour votre chaudière
-                    </h2>
-                    <p class="menu_content-p text-justify">Un <strong>contrat d'entretien de chaudière à
-                            Créteil</strong> vous permet d'avoir à disposition un technicien qualifié à tout moment en
-                        cas de panne de votre système de chauffage. Les clients disposant d'un contrat d'entretien sont,
-                        en effet, prioritaires pour la programmation des interventions de l'entreprise. M'Green est une
-                        entreprise à taille humaine qui privilégie la proximité avec ses clients. Ainsi, en fonction de
-                        la superficie de votre maison, du modèle de votre chaudière et de votre utilisation, M'Green est
-                        capable de vous fournir un contrat d'entretien de chaudière à Créteil sur mesure prenant en
-                        compte vos spécificités. <strong>Chez M'Green, vous trouverez des tarifs très bas tout en
-                            bénéficiant du maximum d'expertise</strong> de la part de nos techniciens. Avec ce contrat
-                        d'entretien, vous bénéficierez d'une visite d'inspection du technicien avec nettoyage du corps
-                        de chauffe, réglages, remise à niveau de la pression de vos radiateurs et optimisations. En cas
-                        de panne pendant la période couverte par le contrat, vous ne paierez que les éventuelles pièces
-                        changées tout en obtenant une intervention prioritaire par rapport aux personnes qui ne
-                        bénéficient pas de contrat. De nombreux clients à Créteil et aux alentours ont fait confiance à
-                        M'Green pour l'entretien de leur chaudière, alors pourquoi pas vous ?
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="tile pb-5">
-    <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-md-12">
-                <div class="menu_content">
-                    <h3 class="zone_links-title text-left">Spécialisations pour le contrat d'entretien de chaudière à
-                        Créteil
+                    <h3 class="zone_links-title text-left">Dépannage et assistance des clients
                     </h3>
-                    <p class="menu_content-p text-justify">Vous équiper d'une chaudière performante sera un véritable
-                        atout pour vous permettre de faire des économies d'énergie tout au long de l'année. <strong>En
-                            posant une nouvelle installation, vous bénéficiez d'un tarif préférentiel sur votre contrat
-                            d'entretien de chaudière à Créteil</strong> et dans ses environs.
+                    <p class="menu_content-p text-justify">L’un des services principaux de M'Green est de faire du
+                        dépannage et de l’assistance pour ses clients. Ce type de service peut se présenter, par
+                        exemple, sous la forme d’un <strong>contrat d’entretien de chaudière à Vincennes</strong>. Grâce
+                        à ce contrat, l’équipe de professionnel peut régler les systèmes de chauffage en propriété, elle
+                        peut également entretenir des équipements, vérifier les canalisations et la plomberie ou donner
+                        des conseils pour l’entretien des équipements de chauffage. Dans cette optique, nos
+                        professionnels s’arment d’outils modernes et appropriés en rapport avec leur mission.
                     </p>
                 </div>
             </div>
@@ -218,36 +204,16 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-md-12">
                 <div class="menu_content">
-                    <h2 class="zone_links-title text-left">Une entreprise qui sait répondre à vos attentes
-                    </h2>
-                    <p class="menu_content-p text-justify"><strong>Forte d'une longue expérience polyvalente dans le
-                            domaine des installations de chauffages et de chaudières</strong>, M’Green sait qu'un devis
-                        précis et transparent de votre intervention est indispensable pour le respect de votre budget.
-                        Un contrat d'entretien de chaudière à Créteil vous évitera les fortes dépenses en cas de panne
-                        soudaine.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="tile pb-5">
-    <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-md-12">
-                <div class="menu_content">
-                    <h3 class="zone_links-title text-left">Conseils et bonnes pratiques pour préserver votre chaudière
-                        et gagner en durée de vie
+                    <h3 class="zone_links-title text-left">Une équipe de professionnels compétents
                     </h3>
-                    <p class="menu_content-p text-justify">Chez M'Green, <strong>vous pouvez obtenir à tout moment des
-                            conseils et des bonnes pratiques pour préserver votre chaudière</strong> et ainsi réaliser
-                        des économies. Votre chauffagiste pourra ainsi vous proposer des accessoires afin de limiter
-                        votre consommation d'énergie (thermostat d'ambiance, réglages fins...) et de s'assurer de la
-                        bonne ventilation de votre chaudière. Dans le cadre d'un contrat d'entretien de chaudière à
-                        Créteil, le technicien pourra analyser l'état de votre chaudière et vous indiquer quels sont les
-                        points d'attention par rapport à son utilisation. L'objectif ici sera de garder le plus
-                        longtemps votre appareil et vous éviter d'investir trop rapidement sur un nouveau modèle, sauf
-                        si le retour sur investissement est intéressant.
+                    <p class="menu_content-p text-justify">La majorité des professionnels qui travaillent au sein de
+                        l’entreprise ont une forte expérience dans le domaine de la plomberie et du chauffage. Pour
+                        pouvoir travailler chez le client, M'Green s’assure d’abord que son personnel maitrise les
+                        différents systèmes de chauffage et qu’ils sont en mesure de travailler dessus sans aucun
+                        problème de sécurité. Ces soucis de détail dans le recrutement des techniciens et dans leur
+                        formation ont fait que nos équipes sont hautement qualifiées. Ainsi, <strong>nous pouvons nous
+                            permettre un contrat d’entretien de chaudière à Vincennes sans aucune difficulté
+                            particulière</strong>.
                     </p>
                 </div>
             </div>
@@ -259,15 +225,14 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-md-12">
                 <div class="menu_content">
-                    <h3 class="zone_links-title text-left">Large zone d'intervention
+                    <h3 class="zone_links-title text-left">La qualité au centre des attentions des salariés
                     </h3>
-                    <p class="menu_content-p text-justify"><strong>Nous vous proposons une pose, un dépannage, et un
-                            contrat d'entretien de chaudière à Créteil</strong> et dans tous les départements de la
-                        Seine-Saint-Denis, de la Seine-et-Marne, du Val-de-Marne, et de l'Essonne. Vous pouvez prendre
-                        rendez-vous dès à présent et en quelques instants, directement dans l’onglet Contact de notre
-                        site, ou par téléphone. Une entreprise de chauffagiste efficace et à la pointe de la technique.
-                        Les rendez-vous sont pris le plus tôt possible, les techniciens interviennent avec expérience et
-                        savoir-faire. Nos devis sont transparents et ne laissent aucune mauvaise surprise au client.
+                    <p class="menu_content-p text-justify">La société a été labélisée RGE ou Reconnue Garant de
+                        l’Environnement. Ce label est une mention de qualité qui se greffe sur un certificat de qualité
+                        déjà en place. Ainsi, <strong>la qualité reste au centre de la démarche de l’entreprise dans son
+                            quotidien</strong>. Le but étant de toujours satisfaire le client. C’est d’ailleurs
+                        mentionné dans le contrat d’entretien de chaudière que nous réalisons à Vincennes ou dans tout
+                        autre contrat de l’entreprise.
                     </p>
                 </div>
             </div>
@@ -279,14 +244,66 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-md-12">
                 <div class="menu_content">
-                    <h2 class="zone_links-title text-left">Des techniciens disponibles et à votre service tout au long
-                        de l'année
+                    <h3 class="zone_links-title text-left">Missions de dépannage et de diagnostic par un technicien
+                        expérimenté
+                    </h3>
+                    <p class="menu_content-p text-justify">Sur simple appel téléphonique, vous pouvez faire appel à un
+                        technicien pour une mission de dépannage sur votre chaudière, quelle que soit sa marque, quel
+                        que soit son modèle. En fonction de l'urgence de la situation, le technicien planifiera une date
+                        d'intervention qui convient à votre emploi du temps. Le technicien effectuera un diagnostic
+                        complet de votre installation afin de comprendre l'origine de la panne avant d'effectuer la
+                        réparation à proprement parler.
+                        <br><br>
+                        <strong>Dans le cadre d'un contrat d'entretien de chaudière à Vincennes, vous bénéficierez du
+                            maximum de priorité</strong> pour une intervention en cas de panne. Nos techniciens peuvent
+                        intervenir et réparer rapidement la panne grâce aux pièces de rechange qu'ils ont dans leur
+                        stock. En cas de panne grave ou de dysfonctionnement très spécifique, le technicien pourra faire
+                        appel facilement et rapidement au fabricant afin de connaître les origines de la panne et
+                        d’effectuer, ainsi, des réparations adéquates.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tile pb-5">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-12">
+                <div class="menu_content">
+                    <h3 class="zone_links-title text-left">Une société à taille humaine capable de prendre en compte vos
+                        spécificités
+                    </h3>
+                    <p class="menu_content-p text-justify">M'Green a su garder une taille humaine et un caractère
+                        familial qui lui permet d'apporter le <strong>maximum de flexibilité et d'agilité dans le cadre
+                            de ses interventions</strong>. Lors de l'établissement d'un contrat d'entretien de chaudière
+                        à Vincennes, toutes les spécificités sont prises en compte par rapport à votre situation :
+                        superficie de votre logement, marque et modèle de votre chaudière, consommation de gaz ou de
+                        fioul, âge de l'appareil...
+                        <br><br>
+                        Avec M'Green, vous avez l'assurance d'obtenir des prestations sur-mesure et de qualité à des
+                        prix imbattables par rapport ce qui est pratiqué par la concurrence dans le département du
+                        Val-de-Marne.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tile pb-5">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-12">
+                <div class="menu_content">
+                    <h2 class="zone_links-title text-left">Des tarifs clairs et transparents pour un maximum de
+                        confiance
                     </h2>
-                    <p class="menu_content-p text-justify">Que ce soit pour une visite d'inspection, un contrat
-                        d'entretien de chaudière sur Créteil ou pour effectuer un dépannage, vous pouvez compter sur la
-                        présence d'un technicien de M'Green tout au long de l'année. Même pendant la période estivale ou
-                        durant les vacances scolaires, un technicien sera toujours là pour répondre à vos questions et
-                        planifier une intervention dans les meilleurs délais.
+                    <p class="menu_content-p text-justify">Chez M'Green, vous pouvez demander un devis détaillé, clair
+                        et non équivoque à tout moment au travers de notre site internet, que ce soit pour une
+                        intervention de dépannage, d'installation d'un nouveau modèle de chaudière, ou pour la mise en
+                        place d’un contrat d'entretien de chaudière sur Vincennes. Nos tarifs sont transparents et
+                        aucune surprise n'est à prévoir lorsque notre technicien intervient chez vous pour une
+                        réparation, un diagnostic ou une installation.
                     </p>
                 </div>
             </div>
@@ -312,6 +329,7 @@
         </div>
     </div>
 </footer>
+
 
 <script src="./assets/js/index.js"></script>
 <script src="./assets/js/formSubmit.js"></script>

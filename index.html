@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/img/logo.png" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <script defer src="./assets/js/popper.min.js"></script>
     <script defer src="./assets/js/bootstrap.min.js"></script>
     <title>M'GREEN | Des professionnels expérimentés | 01 87 64 47 79</title>
@@ -39,8 +40,8 @@
     <nav class="navbar navbar-expand-lg fixedNav">
         <div class="container">
             <div class="Navbar_image">
-                <a href="./index.html"><img src="./assets/img/logo.png" class="Navbar_image-img"
-                        alt="" /></a>
+                <a href="/"><img src="./assets/img/logo.png" class="Navbar_image-img"
+                        alt="Logo M'Green" /></a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,7 +84,16 @@
     </nav>
 </section>
 
-        <section class="slider">
+<script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particlesjs', '/assets/js/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+</script>
+
+    
+        <div id="particles-js"></div>
+<section class="slider">
     <div class="container">
         <div class="slider_bg">
             <div class="row">
@@ -163,13 +173,20 @@
                 </div>
                 <div class="col-md-4">
                     <div class="slider_image">
-                        <img src="./assets/img/heat.png" class="slider_image-img" alt="" />
+                        <img src="./assets/img/heat.png" class="slider_image-img" alt="Chaudière M'Green" />
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', '/assets/js/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+</script>
     
 
     <div class="">
@@ -194,8 +211,8 @@
             <div class="tile_left">
                 <div class="d-flex tile_left-flex justify-content-between align-items-center">
                     <div class="tile_left-image">
-                        <img src="./assets/img/1.png" class="tile_left-image--img" alt="" />
-                        <img src="./assets/img/1-name.png" class="tile_left-image--brand" alt="" />
+                        <img src="./assets/img/1.png" class="tile_left-image--img" alt="Chaudière Chaffoteaux" />
+                        <img src="./assets/img/1-name.png" class="tile_left-image--brand" alt="Logo Chaffoteaux" />
                     </div>
                     <div class="tile_left-content">
                         <p class="tile_left-content--p">Urbia Green Ultra</p>
@@ -216,16 +233,16 @@
                     <div class="tile_right-gallery">
                         <div class="row justify-content-center">
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="Logo RGE" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/2.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/2.png" class="tile_right-gallery--img" alt="Logo maprimerenov'" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="Logo CEE" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="Logo ministère de la transition écologique et solidaire" />
                             </div>
                         </div>
                     </div>
@@ -241,8 +258,8 @@
             <div class="tile_left">
                 <div class="d-flex tile_left-flex justify-content-between align-items-center">
                     <div class="tile_left-image">
-                        <img src="./assets/img/2.png" class="tile_left-image--img" alt="" />
-                        <img src="./assets/img/2-name.png" class="tile_left-image--brand" alt="" />
+                        <img src="./assets/img/2.png" class="tile_left-image--img" alt="Chaudière Vivadens MCR" />
+                        <img src="./assets/img/2-name.png" class="tile_left-image--brand" alt="Logo De Dietrich" />
                     </div>
                     <div class="tile_left-content">
                         <p class="tile_left-content--p">VIVADENS MCR</p>
@@ -263,16 +280,16 @@
                     <div class="tile_right-gallery">
                         <div class="row justify-content-center">
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="Logo RGE" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/2.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/2.png" class="tile_right-gallery--img" alt="Logo maprimerenov'" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="Logo CEE" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="Logo ministère de la transition écologique et solidaire" />
                             </div>
                         </div>
                     </div>
@@ -352,8 +369,8 @@
             <div class="tile_left">
                 <div class="d-flex tile_left-flex justify-content-between align-items-center">
                     <div class="tile_left-image">
-                        <img src="./assets/img/1.png" class="tile_left-image--img" alt="" />
-                        <img src="./assets/img/1-name.png" class="tile_left-image--brand" alt="" />
+                        <img src="./assets/img/1.png" class="tile_left-image--img" alt="Chaudière Chaffoteaux" />
+                        <img src="./assets/img/1-name.png" class="tile_left-image--brand" alt="Logo Chaffoteaux" />
                     </div>
                     <div class="tile_left-content">
                         <p class="tile_left-content--p">Mira C Green Ultra</p>
@@ -374,16 +391,16 @@
                     <div class="tile_right-gallery">
                         <div class="row justify-content-center">
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="Logo RGE" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/2.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/2.png" class="tile_right-gallery--img" alt="Logo maprimerenov'" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="Logo CEE" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="Logo ministère de la transition écologique et solidaire" />
                             </div>
                         </div>
                     </div>
@@ -399,8 +416,8 @@
             <div class="tile_left">
                 <div class="d-flex tile_left-flex justify-content-between align-items-center">
                     <div class="tile_left-image">
-                        <img src="./assets/img/2.png" class="tile_left-image--img" alt="" />
-                        <img src="./assets/img/2-name.png" class="tile_left-image--brand" alt="" />
+                        <img src="./assets/img/mpx.png" class="tile_left-image--img" alt="Chaudière MPX" />
+                        <img src="./assets/img/2-name.png" class="tile_left-image--brand" alt="Logo De Dietrich" />
                     </div>
                     <div class="tile_left-content">
                         <p class="tile_left-content--p">MPX</p>
@@ -421,16 +438,16 @@
                     <div class="tile_right-gallery">
                         <div class="row justify-content-center">
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="Logo RGE" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/2.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/2.png" class="tile_right-gallery--img" alt="Logo maprimerenov'" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="Logo CEE" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="Logo ministère de la transition écologique et solidaire" />
                             </div>
                         </div>
                     </div>
@@ -443,16 +460,18 @@
     <div class="container-fluid">
         <div class="slide_images">
             <div class="slide_image">
-                <img src="./assets/img/c1.png" class="slide_image-img1" alt="" />
+                <img src="./assets/img/c1.png" class="slide_image-img1" alt="Footballeur avec un sweet sponsorisé par la marque" />
             </div>
             <div class="slide_image">
-                <img src="./assets/img/c2.png" class="slide_image-img2" alt="" />
+                <img src="./assets/img/c2.png" class="slide_image-img2" alt="Footballeurs avec un sweet sponsorisé par M'Green" />
             </div>
             <div class="slide_image">
-                <img src="./assets/img/c3.png" class="slide_image-img3" alt="" />
+                <iframe class="slide_image-img3"
+                    src="https://www.youtube.com/embed/watch?v=xrDV7LpsuMw&t=5s">
+                    </iframe>
             </div>
             <div class="slide_image">
-                <img src="./assets/img/c4.png" class="slide_image-img4" alt="" />
+                <img src="./assets/img/c4.png" class="slide_image-img4" alt="Match des héros" />
             </div>
         </div>
     </div>
@@ -476,8 +495,8 @@
             <div class="tile_left">
                 <div class="d-flex tile_left-flex justify-content-between align-items-center">
                     <div class="tile_left-image">
-                        <img src="./assets/img/1.png" class="tile_left-image--img" alt="" />
-                        <img src="./assets/img/1-name.png" class="tile_left-image--brand" alt="" />
+                        <img src="./assets/img/1.png" class="tile_left-image--img" alt="Chaudière Chaffoteaux" />
+                        <img src="./assets/img/1-name.png" class="tile_left-image--brand" alt="Logo Chaffoteaux" />
                     </div>
                     <div class="tile_left-content">
                         <p class="tile_left-content--p">Niagara C Green Ultra</p>
@@ -498,16 +517,16 @@
                     <div class="tile_right-gallery">
                         <div class="row justify-content-center">
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="Logo RGE" />
                             </div>
                             <div class="col-md-3 col-6">
                                 <img src="./assets/img/brands/2.png" class="tile_right-gallery--img" alt="" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="Logo CEE" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="Logo ministère de la transition écologique et solidaire" />
                             </div>
                         </div>
                     </div>
@@ -523,8 +542,8 @@
             <div class="tile_left">
                 <div class="d-flex tile_left-flex justify-content-between align-items-center">
                     <div class="tile_left-image">
-                        <img src="./assets/img/3.png" class="tile_left-image--img" alt="" />
-                        <img src="./assets/img/3-name.png" class="tile_left-image--brand" alt="" />
+                        <img src="./assets/img/3.png" class="tile_left-image--img" alt="Chaudière Alteas One Net" />
+                        <img src="./assets/img/3-name.png" class="tile_left-image--brand" alt="Logo Ariston" />
                     </div>
                     <div class="tile_left-content">
                         <p class="tile_left-content--p">Alteas One Net</p>
@@ -545,16 +564,16 @@
                     <div class="tile_right-gallery">
                         <div class="row justify-content-center">
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="Logo RGE" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/2.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/2.png" class="tile_right-gallery--img" alt="Logo maprimerenov'" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="Logo CEE" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="Logo ministère de la transition écologique et solidaire" />
                             </div>
                         </div>
                     </div>
@@ -572,7 +591,7 @@
                     <div class="cards_content-header mb-5 px-3">
                         <div class="d-flex justify-content-around align-items-center">
                             <div class="cards_content-image">
-                                <img src="./assets/img/f1.png" class="cards_content-image--img" alt="" />
+                                <img src="./assets/img/f1.png" class="cards_content-image--img" alt="Fichier devis" />
                             </div>
                             <div class="">
                                 <h3 class="cards_content-title mt-5 text-left ml-3">Devis gratuit</h3>
@@ -588,7 +607,7 @@
                     <div class="cards_content-header mb-5">
                         <div class="d-flex justify-content-around align-items-center">
                             <div class="cards_content-image">
-                                <img src="./assets/img/f2.png" class="cards_content-image--img2" alt="" />
+                                <img src="./assets/img/f2.png" class="cards_content-image--img2" alt="Charte norme ISO" />
                             </div>
                             <div class="">
                                 <h3 class="cards_content-title mt-5 text-left ml-5">Qualité professionnelle</h3>
@@ -604,7 +623,7 @@
                     <div class="cards_content-header mb-5 px-3">
                         <div class="d-flex justify-content-around align-items-center">
                             <div class="cards_content-image">
-                                <img src="./assets/img/f3.png" class="cards_content-image--img" alt="" />
+                                <img src="./assets/img/f3.png" class="cards_content-image--img" alt=" Illustration accord" />
                             </div>
                             <div class="">
                                 <h3 class="cards_content-title mt-5 text-left ml-5">Professionnels et particuliers</h3>
@@ -630,7 +649,7 @@
             <div class="col-md-6">
                 <div class="services_tabs mt-2">
                     <div class="d-flex">
-                        <img src="./assets/img/s1.png" class="services_tabs-img" alt="" />
+                        <img src="./assets/img/s1.png" class="services_tabs-img" alt="Icône" />
                         <h3 class="services_tabs-title">Chauffagiste disponible en IDF</h3>
                     </div>
                     <p class="services_tabs-p">M'GREEN dispose d’une équipe de plombiers-chauffagistes expérimentés et
@@ -639,7 +658,7 @@
                 </div>
                 <div class="services_tabs">
                     <div class="d-flex">
-                        <img src="./assets/img/s2.png" class="services_tabs-img" alt="" />
+                        <img src="./assets/img/s2.png" class="services_tabs-img" alt="Icône" />
                         <h3 class="services_tabs-title">Spécialisé en installation</h3>
                     </div>
                     <p class="services_tabs-p">En notre qualité d’installateurs de chaudière, nous vous mettons à
@@ -648,7 +667,7 @@
                 </div>
                 <div class="services_tabs">
                     <div class="d-flex">
-                        <img src="./assets/img/s3.png" class="services_tabs-img" alt="" />
+                        <img src="./assets/img/s3.png" class="services_tabs-img" alt="Icône" />
                         <h3 class="services_tabs-title">Contrat de maintenance</h3>
                     </div>
                     <p class="services_tabs-p">Grâce à notre expertise reconnue, nous vous garantissons des prestations
@@ -687,8 +706,8 @@
             <div class="tile_left">
                 <div class="d-flex tile_left-flex justify-content-between align-items-center">
                     <div class="tile_left-image">
-                        <img src="./assets/img/4.png" class="tile_left-image--img" alt="" />
-                        <img src="./assets/img/4-name.png" class="tile_left-image--brand" alt="" />
+                        <img src="./assets/img/4.png" class="tile_left-image--img" alt="Chaudière Semia Fast" />
+                        <img src="./assets/img/4-name.png" class="tile_left-image--brand" alt="Logo Saunier Duval" />
                     </div>
                     <div class="tile_left-content">
                         <p class="tile_left-content--p">Semia Fast</p>
@@ -709,16 +728,16 @@
                     <div class="tile_right-gallery">
                         <div class="row justify-content-center">
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="Logo RGE" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/2.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/2.png" class="tile_right-gallery--img" alt="Logo maprimerenov'" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="Logo CEE" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="Logo ministère de la transition écologique et solidaire" />
                             </div>
                         </div>
                     </div>
@@ -734,8 +753,8 @@
             <div class="tile_left">
                 <div class="d-flex tile_left-flex justify-content-between align-items-center">
                     <div class="tile_left-image">
-                        <img src="./assets/img/5.png" class="tile_left-image--img" alt="" />
-                        <img src="./assets/img/5-name.png" class="tile_left-image--brand" alt="" />
+                        <img src="./assets/img/5.png" class="tile_left-image--img" alt="Chaudière Mégalis" />
+                        <img src="./assets/img/5-name.png" class="tile_left-image--brand" alt="Logo Ariston" />
                     </div>
                     <div class="tile_left-content">
                         <p class="tile_left-content--p">MÉGALIS</p>
@@ -756,16 +775,16 @@
                     <div class="tile_right-gallery">
                         <div class="row justify-content-center">
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/1.png" class="tile_right-gallery--img" alt="Logo RGE" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/2.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/2.png" class="tile_right-gallery--img" alt="Logo maprimerenov'" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/3.png" class="tile_right-gallery--img" alt="Logo CEE" />
                             </div>
                             <div class="col-md-3 col-6">
-                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="" />
+                                <img src="./assets/img/brands/4.png" class="tile_right-gallery--img" alt="Logo ministère de la transition écologique et solidaire" />
                             </div>
                         </div>
                     </div>
@@ -793,6 +812,7 @@
         </div>
     </div>
 </footer>
+
 
 <script src="./assets/js/index.js"></script>
 <script src="./assets/js/formSubmit.js"></script>

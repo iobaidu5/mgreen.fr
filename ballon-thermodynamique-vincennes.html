@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/img/logo.png" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <script defer src="./assets/js/popper.min.js"></script>
     <script defer src="./assets/js/bootstrap.min.js"></script>
     <title>M'GREEN | Des professionnels expérimentés | 01 87 64 47 79</title>
@@ -39,8 +40,8 @@
     <nav class="navbar navbar-expand-lg fixedNav">
         <div class="container">
             <div class="Navbar_image">
-                <a href="./index.html"><img src="./assets/img/logo.png" class="Navbar_image-img"
-                        alt="" /></a>
+                <a href="/"><img src="./assets/img/logo.png" class="Navbar_image-img"
+                        alt="Logo M'Green" /></a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,14 +83,24 @@
         </div>
     </nav>
 </section>
+
+
+<script>
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particlesjs', '/assets/js/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+</script>
+
     
 
     <div class="">
-        <section class="banner">
+        <div id="particlesjs"></div>
+<section class="banner">
     <div class="container-fluid">
         <div class="banner_content">
-            <h1 class="banner_content-title px-5">Installez votre ballon thermodynamique à Créteil pour faire des
-                économies !</h1>
+            <h1 class="banner_content-title px-5">Vous souhaitez installer un ballon thermodynamique à Vincennes ? C’est
+                par ici !</h1>
         </div>
     </div>
 </section>
@@ -98,16 +109,26 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-md-4">
                 <div class="zone_image">
-                    <img src="./assets/img/creteil.png" class="zone_image-img2" alt="Ballon thermodynamique Créteil" />
+                    <img src="./assets/img/vincennes.png" class="zone_image-img3"
+                        alt="Ballon thermodynamique Vincennes" />
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="menu_content">
-                    <p class="menu_content-p text-justify">Il est indispensable de posséder un système de <strong>ballon
-                            thermodynamique à Créteil</strong> pour un confort chez soi. Vous pouvez choisir la
-                        température dans votre maison selon le temps qu’il fait. Ne vous souciez plus de la prise en
-                        charge de l'installation en produit d'eau chaude car nous prenons en charge sa mise en marche et
-                        nous la réparons en cas de problème dans le but d’allonger sa durée de vie.</p>
+                    <p class="menu_content-p text-justify">Vous avez besoin de faire installer un nouveau chauffe-eau ?
+                        Vous recherchez une solution fiable, économique et durable ? Faire installer un <strong>ballon
+                            thermodynamique à Vincennes</strong> par notre entreprise est la garantie d'un travail
+                        artisanal de haute qualité. Découvrez plus d'informations sur cette page : comment fonctionne
+                        cet équipement, quelles économies sont possibles et pourquoi faire appel à notre entreprise ?
+                        Située en région parisienne, notre société M'Green est spécialisée dans l'installation de
+                        chaudières, de ballons thermodynamiques que ce soit à votre domicile ou dans vos bureaux. Nos
+                        techniciens expérimentés, Reconnus Garant de l'Environnement (RGE), interviennent dans les
+                        villes du Val-de-Marne, et notamment Vincennes... Notre équipe de plombiers et de chauffagistes
+                        expérimentés, utilise des installations thermiques modernes et écologiques, comme des
+                        radiateurs, des chaudières, des ballons d'eau chaude, etc. <strong>L’installation d’un ballon
+                            thermodynamique à Vincennes est idéale pour l'écologie et surtout pour vos
+                            économies</strong> en production d'eau chaude. M'Green, effectue également des dépannages et
+                        des vérifications de vos équipements.</p>
                 </div>
             </div>
         </div>
@@ -118,13 +139,16 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-md-12">
                 <div class="menu_content">
-                    <h2 class="zone_links-title text-left">Installez, chez vous, dès maintenant, un ballon
-                        thermodynamique</h2>
-                    <p class="menu_content-p text-justify">Une maison est un lieu où devrait se trouver le confort pour
-                        le bien-être des résidents. De ce fait, il est important d’avoir les équipements nécessaires
-                        pour la régulation de la température interne de l’habitat. C’est pour cela que la possession
-                        d’un système de chauffage est indispensable. Et cet équipement nécessite une maintenance et des
-                        réparations pour avoir des résultats plus performants.<p>
+                    <h2 class="zone_links-title text-left">Son savoir faire</h2>
+                    <p class="menu_content-p text-justify">Nos techniciens sont très expérimentés dans le domaine du
+                        chauffage. Sérieux et sécurité sont les maitres mots de l’entreprise, pour satisfaire votre
+                        confort. Nous utilisons des appareils écologiques et économiques. Nos chauffagistes ont suivi de
+                        nombreuses formations spécialisées pour arriver à un niveau de qualification élevé. Avant chaque
+                        intervention, ils procèdent à une analyse minutieuse de votre tuyauterie ainsi que de tous vos
+                        appareils et ceci afin de vous garantir une sécurité optimale.
+                        <br> N'hésitez pas, faites votre demande de contrat de maintenance afin de bénéficier de
+                        l'entretien de votre chaudière. Possibilité de faire un devis en ligne, réponse rapide garantie.
+                        <p>
                 </div>
             </div>
         </div>
@@ -135,133 +159,12 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-md-12">
                 <div class="menu_content">
-                    <h3 class="zone_links-title text-left">Une expertise pour votre réseau de chauffage
-                    </h3>
-                    <p class="menu_content-p text-justify">Ainsi, <strong>notre entreprise assure l’installation et le
-                            dépannage pour tout problème</strong>, et ce, quel que soit le genre de chauffage :
-                        chaudière, radiateur ou ballon thermodynamique.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="tile pb-5">
-    <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-md-12">
-                <div class="menu_content">
-                    <h3 class="zone_links-title text-left">M'Green : votre partenaire pour l'entretien de votre
-                        chaudière
-                    </h3>
-                    <p class="menu_content-p text-justify">Pour M'Green, le service est tout d’abord de qualité. La mise
-                        en place de chaleur à travers le ballon thermodynamique dans la maison se fera par des
-                        professionnels. Il est à noter que ce dispositif présente beaucoup d’avantages.
-                        <strong>L’installation de ballon thermodynamique à Créteil permet à la fois de faire des
-                            économies sur le chauffage et d’avoir plus de chaleur dans la maison.</strong>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="tile pb-5">
-    <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-md-12">
-                <div class="menu_content">
-                    <h3 class="zone_links-title text-left">Zones d’intervention pour votre ballon thermodynamique à
-                        Créteil
-                    </h3>
-                    <p class="menu_content-p text-justify"><strong>Nos chauffagistes et plombiers bien formés pendant
-                            plusieurs années sont à votre disposition</strong> dans toutes les zones :
-                        Seine-Saint-Denis, Seine-et-Marne, Essonne ainsi que dans le Val-de-Marne. Ils vous montreront
-                        leur professionnalisme avec leur méthode de travail. Il suffit que vous complétiez notre
-                        formulaire et que vous nous décriviez la panne de votre équipement avec le plus de précisions
-                        pour que nous puissions prendre en charge votre commande de ballon thermodynamique à Créteil.
-                        Nous vous invitons à nous fournir votre nom, votre adresse électronique, ainsi que votre numéro
-                        de téléphone. De ce fait, nous vous contacterons dans les plus brefs délais. Nous pouvons
-                        prendre en charge aussi votre salle de bain pour son aménagement. Nous respectons le délai
-                        convenu de la réparation avec un travail assuré.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="tile pb-5">
-    <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-md-12">
-                <div class="menu_content">
-                    <h3 class="zone_links-title text-left">Intervention par nos professionnels pour votre ballon
-                        thermodynamique à Créteil
-                    </h3>
-                    <p class="menu_content-p text-justify">Que vous soyez un particulier ou un professionnel, nous nous
-                        déplaçons pour réparer vos équipements à un tarif abordable. <strong>Nos chauffagistes sont
-                            certifiés RGE.</strong> Vous ne serez pas déçus du travail fourni par leurs soins. Ils
-                        réalisent un travail minutieux dépendant de votre budget. Nous prenons aussi en charge les
-                        chaudières Frisquet et nous pouvons les remplacer en cas de besoin. Des packs à court ou à long
-                        terme vous sont proposés pour la maintenance périodique annuelle ou mensuelle de vos matériels.
-                        Les tarifs vous seront donnés par téléphone ou lors d’une visite. C’est à vous de choisir les
-                        prestations et les ballons thermodynamiques qui vous conviendront le plus. En cas de besoin
-                        immédiat, notre contact est visible sur notre page, il vous suffit simplement de nous appeler et
-                        nous serons présents 20 minutes au plus tard. Vous pouvez nous confier aussi la réparation de
-                        vos robinets ou lavabos, de vos douches ou éviers ainsi que de vos baignoires.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="tile pb-5">
-    <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-md-12">
-                <div class="menu_content">
-                    <h3 class="zone_links-title text-left">Qualité de prestation pour votre ballon thermodynamique à
-                        Créteil
-                    </h3>
-                    <p class="menu_content-p text-justify">Nos clients sont bien servis selon leurs besoins. Nos
-                        chauffagistes sont des plus souriants et peuvent vous donner des conseils pour une utilisation à
-                        longue durée de vos équipements et votre <strong>ballon thermodynamique à Créteil</strong>.
-                        Après notre prestation, si vous avez des remarques ou avez besoin d'une retouche, nos
-                        professionnels réactifs sont joignables à toute heure. Ils respectent la durée du travail selon
-                        votre disponibilité et peuvent répondre à toutes vos questions. Nous pouvons aussi installer le
-                        système de vos chauffages centraux en nous adaptant à toutes vos commandes. Les techniciens
-                        respectent soigneusement les lieux en gardant un environnement propre sur leur périmètre de
-                        prestation. Certaines de nos prestations sont réalisées en moins de 24 heures ! <strong>Nous
-                            sommes en partenariat avec de nombreuses marques de chaudières professionnelles telles que
-                            Frisquet.</strong> Vous pouvez également nous confier vos planchers chauffants PER ou
-                        multicouche, vos salles d'eau comme le WC suspendus ou non, vos receveurs à l'Italienne et
-                        l’entièreté de vos salles de bain. Nous nous occupons de tous types de chaudières et de toutes
-                        marques comme Bosch, Chappée, De Dietrich ou encore Elm ainsi que de vos meubles vasques et bien
-                        sûr de vos ballons thermodynamiques.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="tile pb-5">
-    <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-md-12">
-                <div class="menu_content">
-                    <h2 class="zone_links-title text-left">Nos services
+                    <h2 class="zone_links-title text-left">Installation de chaudière
                     </h2>
-                    <p class="menu_content-p text-justify">Quelle que soit la panne de votre équipement, nous vous
-                        dépannons à toute heure pour les installations. Nous sommes expérimentés sur tous les types de
-                        chauffages comme les radiateurs et les chaudières. Nous procédons à la maintenance de ces
-                        derniers. Pour toutes les prestations, nous préservons avant tout la qualité avec nos
-                        chauffagistes expérimentés. Vous aurez beaucoup à gagner en installant dans votre foyer un
-                        ballon thermodynamique à Créteil. L'utilisation d'énergie est plus rentable et économe avec une
-                        température réglable si vous voulez plus ou moins de chaleur. Par conséquent, vous économiserez
-                        dans les 70% de votre utilisation d'eau. Avec nos professionnels, nous disposons des matériels
-                        performants et qui suivent la technologie et les normes en vigueur. Nos outils de tuyauterie et
-                        de canalisation sont des plus performants ainsi que nos conduits électriques. <strong>Nous nous
-                            chargeons aussi de l'installation de vos systèmes thermiques et de votre ballon
-                            thermodynamique à Créteil.</strong>
+                    <p class="menu_content-p text-justify">Notre spécialisation : les chaudières Frisquet au sol et les
+                        chaudières à gaz mural, nos modèles assurent un chauffage écologique. Qu'ils soient à basse
+                        température ou à condensation, nos différents appareils que nous installons fonctionnent aux
+                        énergies renouvelables. <strong>Ils sont tous sécurisés.</strong>
                     </p>
                 </div>
             </div>
@@ -273,11 +176,15 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-md-12">
                 <div class="menu_content">
-                    <h3 class="zone_links-title text-left">Un gage de qualité de produit et de service
-                    </h3>
-                    <p class="menu_content-p text-justify">La qualité ne se présente pas seulement dans la prestation,
-                        mais également dans les outils employés. <strong>Nos techniciens se munissent des matériels
-                            derniers cri</strong> afin de mettre en place un ballon thermodynamique dans les normes.
+                    <h2 class="zone_links-title text-left">Ballon thermodynamique
+                        chaudière
+                    </h2>
+                    <p class="menu_content-p text-justify">Le ballon d’eau chaude thermodynamique intègre un ballon
+                        d’eau chaude et une pompe à chaleur. C’est une <strong>solution de chauffage sanitaire
+                            économique et performante</strong>, car elle utilise l’air du local pour chauffer l’eau en
+                        restituant dans l’eau et au moyen d’un échangeur. Ce dispositif permet une économie de plus de
+                        70% sur votre consommation d'eau chaude, ce qui n'est pas négligeable au niveau de votre
+                        facture.
                     </p>
                 </div>
             </div>
@@ -289,18 +196,197 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-md-12">
                 <div class="menu_content">
-                    <h3 class="zone_links-title text-left">Expérience et écoute de vos besoins
+                    <h2 class="zone_links-title text-left">A propos de nous
+                    </h2>
+                    <p class="menu_content-p text-justify">Nos interventions sont réalisées dans plusieurs départements
+                        de l’Île-de-France, dont le 93, le 77, le 91 et le 94. Les spécialistes aguerris opèrent chez
+                        vous, à domicile et au sein de vos bureaux. En effet, l'entreprise M'Green est Reconnue Garante
+                        de l'Environnement (MGE). Elle a un partenariat avec la société Frisquet, société de vente de
+                        chaudières haut de gamme. Le ballon d'eau chaude thermodynamique en est la preuve.
+                        <strong>M'Green s'occupe aussi d'installation de planchers chauffants.</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tile pb-5">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-12">
+                <div class="menu_content">
+                    <h3 class="zone_links-title text-left">Comment faire des économies en changeant de chauffe-eau ?
+                        Combien consomme un chauffe-eau classique ?
                     </h3>
-                    <p class="menu_content-p text-justify">L’entreprise M'Green est une société qui se charge de
-                        l’installation et de la réparation de ballon thermodynamique notamment à Créteil. Elle regroupe
-                        plusieurs plombiers et chauffagistes pour intervenir dans les départements suivants :
-                        Seine-Saint-Denis, Seine-et-Marne, Val-de-Marne et Essonne. Pour bénéficier d’aide dans ce
-                        domaine, il est important de prendre rendez-vous et de confirmer la nature de la prestation à
-                        effectuer. En contactant directement notre entreprise, nous pouvons vous prouver le savoir-faire
-                        de nos techniciens à travers la présentation de nos précédentes prestations. <strong>Que ce soit
-                            pour la rénovation de toute la salle d’eau ou pour l’installation d’un ballon
-                            thermodynamique à Créteil, l’intervention de la société se fait le plus rapidement
-                            possible</strong> et le résultat de chaque prestation est fiable.
+                    <p class="menu_content-p text-justify">Le chauffe-eau est une dépense majeure des Français sur la
+                        facture d'électricité. Selon l'ADEME, elle représenterait près de 15% de votre consommation
+                        électrique. C'est beaucoup trop ! Un chauffe-eau classique, même s'il est réglé pour ne se
+                        mettre en marche qu'en heures creuses, est un véritable gouffre financier.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tile pb-5">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-12">
+                <div class="menu_content">
+                    <h3 class="zone_links-title text-left">Comment faire des économies en installant un ballon
+                        thermodynamique à Vincennes ?
+                    </h3>
+                    <p class="menu_content-p text-justify">L’installation de <strong>ballon thermodynamique à
+                            Vincennes</strong> : tout le monde en parle. C'est une innovation qui a déjà quelques
+                        années. C'est pour cette raison que son principe de fonctionnement est très au point. Selon les
+                        experts, il consomme 3 fois moins d'énergie pour chauffer la même quantité d'eau. Le coût
+                        d'achat est rapidement amorti par les économies. Installer un chauffe-eau thermodynamique dans
+                        une maison neuve est une évidence et des aides gouvernementales existent. Contactez M'Green pour
+                        en savoir plus !
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tile pb-5">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-12">
+                <div class="menu_content">
+                    <h2 class="zone_links-title text-left">Comment fonctionne le ballon thermodynamique vincennes ?
+                    </h2>
+                    <p class="menu_content-p text-justify"><strong>Vous vous demandez peut-être comment fonctionne un
+                            ballon thermodynamique à Vincennes et pourquoi l'installer dans votre logement</strong> à
+                        Vincennes. Voici quelques informations pour vous guider dans votre choix.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tile pb-5">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-12">
+                <div class="menu_content">
+                    <h4 class="zone_links-title text-left">Récupération des calories de l'air
+                    </h4>
+                    <p class="menu_content-p text-justify">Son principe de fonctionnement est très simple. Il est
+                        possible de le comparer à celui de votre frigo, sauf qu'il produit de la chaleur à la place du
+                        froid. Il récupère les calories présentes dans l'air de la pièce dans laquelle vous l'installez
+                        pour la convertir en énergie. Il est efficace avec une très grande amplitude thermique (de -5 à
+                        35 degrés environ).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tile pb-5">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-12">
+                <div class="menu_content">
+                    <h3 class="zone_links-title text-left">Un COP de 3 à 4
+                    </h3>
+                    <p class="menu_content-p text-justify">Le COP est le Coefficient de Performance Energétique. Les
+                        ballons thermodynamiques sont réputés pour leur COP très élevé, qui avoisine les 3 ou 4. Pour
+                        vous expliquer simplement la signification de ce terme techique, cela signifie que pour 1kW
+                        d'électricité consommé, le chauffe-eau restitue 3 à 4 kW dans le chauffage de votre eau.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tile pb-5">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-12">
+                <div class="menu_content">
+                    <h2 class="zone_links-title text-left">Où installer ce type de ballon électrique ?
+                    </h2>
+                    <p class="menu_content-p text-justify">Le chauffe-eau thermodynamique doit être installé dans une
+                        pièce de 20 mètres cubes pour lui permettre un fonctionnement optimal. Ainsi, il y aura assez
+                        d'air disponible dans le volume pour qu'il capte les calories. L'installation est relativement
+                        simple, mais nécessite l'intervention d'un technicien pour un réglage optimal (et pour
+                        bénéficier du crédit d'impôt). Il pèse environ 400 kg en fonction du modèle que vous choisirez.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tile pb-5">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-12">
+                <div class="menu_content">
+                    <h2 class="zone_links-title text-left">Pourquoi faire confiance à M'Green ?
+                    </h2>
+                    <p class="menu_content-p text-justify">Notre entreprise de chauffagiste M'Green est implantée en
+                        Île-de-France. Nous intervenons dans toutes les communes des départements de la région, dont
+                        Vincennes. <strong>Voici les avantages de faire appel à nous pour l'installation d'un ballon
+                            thermodynamique à Vincennes.</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tile pb-5">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-12">
+                <div class="menu_content">
+                    <h3 class="zone_links-title text-left">Conseil
+                    </h3>
+                    <p class="menu_content-p text-justify"><strong>Nos artisans compétents, qualifiés et formés, sont en
+                            mesure de vous conseiller</strong> les meilleurs équipements. Chaque famille a des besoins
+                        spécifiques et n'a pas le même budget. C'est pour cette raison que, quand vous demandez un
+                        devis, nous nous adaptons à vous. Nous ne vous conseillons pas seulement sur les ballons
+                        thermodynamiques à Vincennes, mais également sur tout ce qui a trait à notre métier artisanal de
+                        chauffagiste : radiateurs, convecteurs, plomberie, etc.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tile pb-5">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-12">
+                <div class="menu_content">
+                    <h3 class="zone_links-title text-left">Compétences
+                    </h3>
+                    <p class="menu_content-p text-justify">Qui de mieux qu'une personne formée et titulaire d'un brevet
+                        d'État pour vous installer votre nouvel équipement pour chauffer l'eau ? Vous pouvez bien sûr
+                        demander à un membre de votre famille ou un voisin de vous aider, mais votre équipement risque
+                        de ne pas être bien réglé. De plus, impossible de bénéficier des crédits d'impôt et autres
+                        aides.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tile pb-5">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-12">
+                <div class="menu_content">
+                    <h3 class="zone_links-title text-left">Maintenance
+                    </h3>
+                    <p class="menu_content-p text-justify">Le dernier avantage est <strong>notre capacité à vous
+                            proposer un contrat de maintenance en fonction de vos besoins</strong>. Il faut savoir que
+                        les ballons thermodynamiques à Vincennes sont des équipements fiables et efficaces, à condition
+                        d'assurer une maintenance prévisionnelle (tous les ans par exemple) ou opérationnelle. Notre
+                        technicien évalue le dépôt du calcaire, l'état des canalisations et du système électrique.
+                        N'hésitez plus, pour changer de chauffe-eau, optez pour un ballon thermodynamique à Vincennes et
+                        dans toute l'Île-de-France. Des économies d'énergie avec un équipement de qualité : aucun doute,
+                        il est fait pour vous ! Contactez-nous dès aujourd'hui pour en savoir plus.
                     </p>
                 </div>
             </div>
@@ -310,22 +396,23 @@
     </div>
 
     <footer class="footer">
-    <div class="container">
-        <div class="footer_content">
-            <div></div>
-            <div class="d-flex align-items-center zone_links-flex">
-                <a href="./zones-intervention.html" class="footer_content-p">Zones d’intervention</a>
-                <p class="footer_content-p"> &nbsp; | &nbsp</p>
-                <a href="" class="footer_content-p">Mentions légales</a>
-                <p class="footer_content-p"> &nbsp; | &nbsp</p>
-                <a href="" class="footer_content-p">Politique de confidentialité</a>
-            </div>
-            <div class="footer_bottom">
-                <p class="footer_bottom-p"><a href="https://www.bhinternet.fr/" target="_blank" class="footer_bottom-p">BHInternet - Création site internet | 2022</a></p>
+        <div class="container">
+            <div class="footer_content">
+                <div></div>
+                <div class="d-flex align-items-center zone_links-flex">
+                    <a href="./zones-intervention.html" class="footer_content-p">Zones d’intervention</a>
+                    <p class="footer_content-p"> &nbsp; | &nbsp</p>
+                    <a href="" class="footer_content-p">Mentions légales</a>
+                    <p class="footer_content-p"> &nbsp; | &nbsp</p>
+                    <a href="" class="footer_content-p">Politique de confidentialité</a>
+                </div>
+                <div class="footer_bottom">
+                    <p class="footer_bottom-p"><a href="https://www.bhinternet.fr/" target="_blank" class="footer_bottom-p">BHInternet - Création site internet | 2022</a></p>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
+
 
 <script src="./assets/js/index.js"></script>
 <script src="./assets/js/formSubmit.js"></script>
